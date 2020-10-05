@@ -1,0 +1,8 @@
+ <a href="/home">home</a>
+            <a href="/music">music</a>
+            <a href="/videos">videos</a>
+
+            <!-- <button type="submit">
+                <a href="/music">Next
+                </a>
+            </button>

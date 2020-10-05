@@ -1,0 +1,47 @@
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/WIT.cb2e269c.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* login container */
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login__wrapper {
+  background-color: white;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* email field */
+#user-email,
+#user-pw {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 290px;
+}
+
+.login__options > a {
+  text-decoration: none;
+}
+
+#login__next-button,
+#login__sign-in {
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+
+/*# sourceMappingURL=/scss.b0eb0931.css.map */
